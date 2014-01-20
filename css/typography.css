@@ -135,15 +135,15 @@ ol li:before{
 
 /*Table*/
 
-
-
 th{
-  color:black;
-
+  color:purple;
 
 }
 
-
+td{
+  background-color: orange;
+  text-align: center;
+}
 
 caption{
   font-size: 0.7901rem;
