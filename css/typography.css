@@ -136,6 +136,12 @@ ol li:before{
   left:-1.1em;
 }
 
+/*blockquote*/
+blockquote footer{
+  text-align: right;
+  font-style: italic;
+
+}
 /*Table*/
 
 table{
