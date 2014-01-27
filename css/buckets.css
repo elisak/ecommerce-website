@@ -1,0 +1,23 @@
+.large-bucket{
+	display:block;
+	margin-left: 1rem;
+	clear:both;
+	position: absolute;
+}
+
+.small-bucket{
+	float: right;
+	margin-left: 60%;
+	margin-right: 2rem;
+	border: 2px solid black;
+	overflow:hidden;
+	margin-top: -50rem;
+
+}
+
+.left-small-bucket{
+	float: left;
+	display: inline-block;
+	margin-left: 1rem;
+	margin-top: 50rem;
+}

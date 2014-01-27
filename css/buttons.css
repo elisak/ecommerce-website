@@ -27,15 +27,19 @@
 	transition: 1s;
 }
 
-.btn1{
+.btn1,
+.btn1:link,
+.btn1:visited{
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-   transition: 0.7s;
+	background-color:purple;
+	transition: 0.7s;
 }
+
 .btn1:hover{
-  background-color: limegreen;
-  color:purple;
-  font-weight: bold;
-  transition: 1s;
+	background-color: limegreen;
+	color:purple;
+	font-weight: bold;
+	transition: 1s;
 
 }
 
