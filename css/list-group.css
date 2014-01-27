@@ -1,0 +1,13 @@
+.list-group{
+	text-decoration: none;
+}
+
+.list-group-item:before{
+	content:'';
+}
+
+.list-group-item{
+	margin-top: 1rem;
+	margin-right: .5rem;
+	display: inline-block;
+}
