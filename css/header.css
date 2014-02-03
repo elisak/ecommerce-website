@@ -1,22 +1,38 @@
+header{
+	margin: .5rem;
+}
 
 .logo{
 	border-radius: 60px;
+	position:relative;
+}
 
+h1{
+	font-size: 1.25rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	display: inline-block;
+}
 
+.nav{
+	display:block;
+	color:limegreen;
+	overflow: hidden;
 
 }
-.nav{
-	display:inline-block;
-	color:limegreen;
+
+.nav-bottom{
+	font-size: 1rem;
 }
 
 a,
 a:link {
+	font-size: 1.25rem;
 	text-decoration: none;
 	border-bottom:none;
-	float:left;
-	font-size: 1.5rem;
-	padding:1rem;
+	float:right;
+	padding:.75rem;
+	margin-bottom: 1rem;
 
 }
 
@@ -30,7 +46,12 @@ a:active {
 	text-decoration: none;
 }
 
+
 .searchform{
-	float:right;
-	overflow: hidden;
+	margin-top: 1rem;
+	width:55%;
+	height: 10%;
+	float:left;
+	left:1%;
+	position:relative;
 }

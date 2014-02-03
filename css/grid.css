@@ -1,0 +1,20 @@
+
+/*Small Screen*/
+
+
+/*Medium Screen Size 480px*/
+@media only screen and (min-width: 30em){
+	.m-left{
+		width:55%;
+		height: 10%;
+		float:right;
+		right:1rem;
+		position:relative;
+	}
+
+}
+
+/*Large Screen Size*/
+@media only screen and (min-width: 50em ){
+
+}
