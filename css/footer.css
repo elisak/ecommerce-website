@@ -10,3 +10,13 @@
 	font-size: .50rem;
 	color:blue;
 }
+
+.fa{
+	font-size: 1.5rem;
+	line-height: 1;
+}
+
+.fa-twitter{
+	margin-left:5rem;
+	border-color:blue;
+}
