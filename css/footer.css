@@ -1,7 +1,7 @@
 
 .nav{
 	text-decoration: none;
-	float:center;
+	left:20%;
 	font-size: .75rem;
 }
 
@@ -11,12 +11,3 @@
 	color:blue;
 }
 
-.fa{
-	font-size: 1.5rem;
-	line-height: 1;
-}
-
-.fa-twitter{
-	margin-left:5rem;
-	border-color:blue;
-}
