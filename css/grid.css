@@ -4,17 +4,54 @@
 
 /*Medium Screen Size 480px*/
 @media only screen and (min-width: 30em){
-	.m-left{
-		width:55%;
-		height: 10%;
-		float:right;
-		right:1rem;
-		position:relative;
+.medium{
+	left:5%;
 	}
+
+
+.nav-m{
+float:left;
+position:relative;
+}
+
+
+.product-m{
+	border: 4px solid royalblue;
+	padding: .75rem;
+	width: 55%;
+	margin-left: .5rem;
+	display: block;
+}
+
 
 }
 
 /*Large Screen Size*/
 @media only screen and (min-width: 50em ){
+
+.nav-l{
+	font-size: 1.25rem;
+	color:red;
+
+}
+
+.large{
+	left:50%;
+
+	}
+
+.l-right{
+		float: right;
+		widows: 50%;
+		color:red;
+	}
+
+.product-l{
+	border: 4px solid royalblue;
+	padding: .75rem;
+	float:left;
+	width: 20%;
+	margin-left: 5rem;
+}
 
 }
