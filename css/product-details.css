@@ -3,14 +3,19 @@
 }*/
 
 .price{
-	float:right;
-	display: block;
-	margin-bottom: 1.75rem;
-/*	position:fixed;
-*/}
+display: block;
+position: absolute;
+margin-top: 11rem;
+margin-left: 12rem;
+}
 
 .product{
 	padding: .75rem;
 	margin-left: .5rem;
 	margin-bottom: 1rem;
+}
+
+.tiny-text{
+	margin-top: 1rem;
+	position: relative;
 }
