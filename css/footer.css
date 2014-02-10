@@ -6,7 +6,26 @@
 
 
 .copyright{
-	font-size: .50rem;
-	color:blue;
+	font-size: .65rem;
+	color:black;
+	width:50%;
+}
+
+.social{
+	display:block;
+}
+
+.social li{
+	display:inline-block;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display:block;
+	height:30px;
+	width: 30px;
+	text-align: center;
+	color: black;
 }
 
