@@ -1,5 +1,10 @@
 
-/*Small Screen*/
+/*Small Screen* 250px*/
+@media only screen and (max-width: 300px ){
+  .searchform{
+  	display:none;
+  }
+}
 
 
 /*Medium Screen Size 480 px*/

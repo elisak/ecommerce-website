@@ -14,6 +14,7 @@ header{
 
 .logo-name{
 	width:50%;
+	position:fixed;
 }
 
 h1{
@@ -32,8 +33,7 @@ h1{
 }
 
 .nav-ul{
-	list-style: none;
-
+margin-left:-15rem;
 }
 
 a,
@@ -59,7 +59,7 @@ a:active {
 
 .searchform{
 	margin-top: 1rem;
-	width:55%;
+	width:80%;
 	height: 10%;
 	float:left;
 	left:1%;
