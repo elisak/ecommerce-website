@@ -6,20 +6,20 @@ header{
 
 .logo{
 	border-radius: 60px;
-	position:relative;
 	display:inline-block;
 	float:left;
-	overflow:hidden;
 }
 
 .logo-name{
-	width:50%;
+	width:100%;
 	position:fixed;
+	margin-bottom: 1.5rem;
+	display:inline-block;
 }
 
 h1{
 	font-size: 1.25rem;
-	margin-bottom: 0;
+	margin-bottom: 1rem;
 	margin-top: .75rem;
 	margin-left: 1.5rem;
 	display: inline-block;
@@ -30,10 +30,11 @@ h1{
 	display:block;
 	overflow: hidden;
 	font-size: 1rem;
+	margin-top: .5rem;
 }
 
 .nav-ul{
-margin-left:-15rem;
+	margin-left:-15rem;
 }
 
 a,
@@ -58,10 +59,9 @@ a:active {
 
 
 .searchform{
-	margin-top: 1rem;
-	width:80%;
+	margin-top: .25rem;
+	width:90%;
 	height: 10%;
 	float:left;
-	left:1%;
 	position:relative;
 }

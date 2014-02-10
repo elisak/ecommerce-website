@@ -30,9 +30,19 @@ position:relative;
 	display: block;
 }
 
+.searchform{
+	max-width:500px;
+	clear: both;
 
 }
 
+}
+
+@media only screen and (max-width: 780px){
+	.searchform{
+		margin-top: 2rem;
+	}
+}
 /*Large Screen Size*/
 @media only screen and (min-width: 50em ){
 
