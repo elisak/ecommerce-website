@@ -7,20 +7,32 @@ header{
 .logo{
 	border-radius: 60px;
 	position:relative;
+	display:inline-block;
+	float:left;
+	overflow:hidden;
+}
+
+.logo-name{
+	width:50%;
 }
 
 h1{
 	font-size: 1.25rem;
 	margin-bottom: 0;
-	margin-top: 0;
+	margin-top: .75rem;
+	margin-left: 1.5rem;
 	display: inline-block;
+	float:left;
 }
 
 .nav{
 	display:block;
-	color:limegreen;
 	overflow: hidden;
 	font-size: 1rem;
+}
+
+.nav-ul{
+	list-style: none;
 
 }
 
