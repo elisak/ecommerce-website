@@ -1,15 +1,15 @@
-html{
+/*html{
 	width:100%;
-}
+}*/
+
 .price{
 	float:right;
 	display: block;
-	margin-bottom: .75rem;
-	margin-right: 1.75rem;
-}
+	margin-bottom: 1.75rem;
+/*	position:fixed;
+*/}
 
 .product{
-	border: 4px solid royalblue;
 	padding: .75rem;
 	margin-left: .5rem;
 	margin-bottom: 1rem;
