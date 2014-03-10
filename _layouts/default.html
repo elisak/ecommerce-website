@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>{{page.title}}Heels & Shoes</title>
+  <title>{{page.title}} Heels & Shoes</title>
   <meta name="description" content="{{page.meta}}">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
@@ -35,9 +35,9 @@
 <div class="nav-ul">
 	<nav>
 	<ul >
-		<li><a class="links" href="{{site.baseurl}}/">Home</a></li>
-		<li><a class="links" href="{{site.baseurl}}/about/">About</a></li>
-		<li><a class="links" href="#">Sign IN</a></li>
+		<li><a class="{% if page.url=="/" %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+		<li><a class="{% if page.url=="/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+		<li><a class="{% if page.url=="/" %}current{% endif %}" href="#">Sign IN</a></li>
 	</ul>
 </nav>
 </div>
