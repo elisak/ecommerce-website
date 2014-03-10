@@ -65,3 +65,7 @@ a:active {
 	float:left;
 	position:relative;
 }
+
+.masthead{
+	background-color: orangered;
+}
