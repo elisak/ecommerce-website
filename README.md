@@ -7,4 +7,7 @@ ecommerce-website
 
 © 2014 Elisa Koon
 
-Licensed under the [MIT License.] (LICENSE)
+Code licensed under the [MIT License.](LICENSE)
+
+Design and Imagery licensed under [Creative Commons Attribute 4.0 Internation License](http://creativecommons.org/licenses/by-nc/4.0/legalcode)
+
