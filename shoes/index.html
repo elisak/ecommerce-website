@@ -27,3 +27,16 @@ bannertext: SHOES FOR LIFE!
 	</div>
 
 <p class="info product product-m product-l"> Our shoes are well designed, different and got interesting art to it. </p>
+
+<ul>
+	{% for shoes in site.pages %}
+		{% if shoes.category == "shoes" %}
+			{% if shoes.type == "shoes" %}
+			<li>
+				<a href="{{site.baseurl}}{{shoes.url}}" alt="">
+					{{shoes.name}}
+				</a>
+			</li>
+		{% endif %}
+	{%% endfor %}
+</ul>
