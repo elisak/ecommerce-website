@@ -26,25 +26,30 @@
 <body>
 
 <header class="nav nav-m nav-l masthead">
-
 <div class="logo-name">
 	<img class="logo medium large" src="http://placehold.it/60x60" alt="logo">
-	<h1>Elisa's Company</h1>
+	<h1>EK•Shoes. Co</h1>
 </div>
 
 <div class="nav-ul">
-	<nav>
-	<ul >
-		<li><a class="{% if page.url contains "shoe"=="/" %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
-		<li><a class="{% if page.url =="/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
-		<li><a class="{% if page.url =="/" %}current{% endif %}" href="#">Sign IN</a></li>
+<nav>
+	<ul class="giga">
+		<li>
+			<a class="{% if page.url contains "shoes"=="/" %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
+		</li>
+		<li>
+			<a class="{% if page.url =="/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
+		</li>
+		<li>
+			<a class="{% if page.url =="/" %}current{% endif %}" href="#">Sign IN</a>
+		</li>
 	</ul>
 </nav>
 </div>
 
 
 <div class="search-bar">
-	<form class="searchform cf ">
+	<form class="searchform cf">
 		<input type="text" placholder='Search here...'>
 		<button type='submit'>Search</button>
 	</form>
@@ -87,7 +92,7 @@
 	</ul>
 </nav>
 </div>
-	<p class="copyright">Copyright &copy; 2014 Elisa's Company</p>
+	<p class="copyright">Copyright &copy; 2014 EK•Shoes. Co</p>
 </footer>
 
 </body>
