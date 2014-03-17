@@ -5,17 +5,25 @@ header{
 }
 
 .banner{
-background: url("../images/banner.jpg") no-repeat center center;
-text-align: center;
+	background: blue url("../images/banner.jpg");
+	text-align: center;
+	margin-top: 0.5rem;
+	border: 2px solid black;
+}
 
+.banner h1{
+	color:blue;
+	font-size: 2rem;
 }
 
 .current{
 	background-color: skyblue;
 }
+
 .masthead{
-	background-color: pink;
+	background-color: lightpink;
 }
+
 .logo{
 	border-radius: 60px;
 	display:inline-block;
@@ -24,9 +32,10 @@ text-align: center;
 
 .logo-name{
 	width:100%;
-	position:fixed;
-	margin-bottom: 1.5rem;
+	position:relative;
+	margin-bottom: -2.75rem;
 	display:inline-block;
+	font-size: 3rem;
 }
 
 h1{

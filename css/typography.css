@@ -40,6 +40,7 @@ blockquote, table, hr {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
+  font-family: 'Josefin Slab', serif;
 }
 
 h2, .peta {

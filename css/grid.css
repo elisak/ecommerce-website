@@ -4,8 +4,17 @@
   .searchform{
   	display:none;
   }
+
+  .logo-name{
+  	display: block;
+  }
 }
 
+@media only screen and (max-width: 310px){
+	.logo-name{
+		display: inline-block;
+	}
+}
 
 /*Medium Screen Size 480 px*/
 @media only screen and (min-width: 30em){
@@ -24,10 +33,11 @@ position:relative;
 
 .product-m{
 	padding: .75rem;
-	width: 55%;
+	width: 95%;
 	margin-left: .5rem;
-	display: block;
-	}
+	display: inline-block;
+	margin-top: -5rem;
+}
 
 .searchform{
 	max-width:500px;
@@ -36,6 +46,7 @@ position:relative;
 	}
 
 }
+
 
 @media only screen and (max-width: 780px){
 	.searchform{
@@ -63,10 +74,15 @@ position:relative;
 	}
 
 .product-l{
-	padding: .75rem;
-	float: left;
-	width: 31%;
-	margin-left: 5rem;
+padding: .75rem;
+float: left;
+clear: both;
+width: 40%;
+margin-left: 2rem;
 }
 
+.info{
+	margin-top: -1.5rem;
+	margin-left: 3.5rem;
+}
 }
