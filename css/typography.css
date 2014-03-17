@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
   margin: 0 0 1.5rem;
-  color:deeppink;
+  color:/*deeppink*/ purple;
 }
 
 .yotta {
@@ -83,7 +83,7 @@ small, .milli {
 p{
   font-size: 1.0000rem;
   font-family: 'Roboto', sans-serif;
-  color:#ee3d2e;
+  color:/*#ee3d2e*/ grey;
 
 }
 /*Links*/
