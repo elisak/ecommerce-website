@@ -19,7 +19,7 @@
 .nav-m{
 float:left;
 position:relative;
-}
+	}
 
 
 .product-m{
@@ -27,13 +27,13 @@ position:relative;
 	width: 55%;
 	margin-left: .5rem;
 	display: block;
-}
+	}
 
 .searchform{
 	max-width:500px;
 	clear: both;
 
-}
+	}
 
 }
 

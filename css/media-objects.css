@@ -1,5 +1,16 @@
+.media{
+	border: 3px solid;
+	border-radius: 3px;
+	margin-bottom: 2rem;
+	background:pink;
+	margin-top: 2rem;
+	height:60%;
+
+
+
+}
 .media-img{
 	margin-left: 1.5rem;
+	width: 82%;
 }
-
 

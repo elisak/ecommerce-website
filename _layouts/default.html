@@ -35,9 +35,9 @@
 <div class="nav-ul">
 	<nav>
 	<ul >
-		<li><a class="{% if page.url=="/" %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
-		<li><a class="{% if page.url=="/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
-		<li><a class="{% if page.url=="/" %}current{% endif %}" href="#">Sign IN</a></li>
+		<li><a class="{% if page.url contains "heels"=="/" %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+		<li><a class="{% if page.url =="/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+		<li><a class="{% if page.url =="/" %}current{% endif %}" href="#">Sign IN</a></li>
 	</ul>
 </nav>
 </div>
@@ -52,7 +52,7 @@
 
 </header>
 
-{% if page.showbanner%}
+{% if page.showbanner %}
 <div class="banner">
 	<h1>{{page.bannertext}}</h1>
 </div>
