@@ -10,12 +10,6 @@
   }
 }
 
-@media only screen and (max-width: 310px){
-	.logo-name{
-		display: inline-block;
-	}
-}
-
 /*Medium Screen Size 480 px*/
 @media only screen and (min-width: 30em){
 

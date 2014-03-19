@@ -8,13 +8,11 @@ bannertext: SHOES FOR LIFE!
 
 <h1>Beautiful Shoes and Heels</h1>
 
-
-
 <p class="info product product-m product-l"> Our shoes are well designed, different and got interesting art to it. </p>
 
 <ul>
 	{% for shoes in site.pages %}
-		{% if shoes.category == "shoes" %}
+		{% if shoes.shoe_type == "sneaker" %}
 			<li>
 				<a href="{{site.baseurl}}{{shoes.url}}">
 					<img src="{{site.baseurl}}/images/{{shoes.image}}" alt="">
