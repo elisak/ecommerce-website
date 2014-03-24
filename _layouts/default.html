@@ -37,21 +37,28 @@
 		<li>
 			<a class="{% if page.url contains "shoes"=="/" %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
 		</li>
+
 		<li>
 			<a class="{% if page.url =="/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
 		</li>
+<!--
+		<li>
+			<a class="{% if page.url =="/" %}current{% endif %}" href="{{site.baseurl}}/shoes/index/">Products</a>
+		</li> -->
+
 		<li>
 			<a class="{% if page.url =="/" %}current{% endif %}" href="#">Sign IN</a>
 		</li>
+
 	</ul>
 </nav>
 </div>
 
 
 <div class="search-bar">
-	<form method "get" action="{{site.baseurl}}/search/"  class="searchform cf">
-		<input type="text" placholder="Search here...">
-		<button type='submit'>Search</button>
+	<form method="get" class="searchform cf" action="{{site.baseurl}}/search/">
+		<input id="search" type="text" placholder="Search here...">
+		<button id="submit" type='submit' value="search">Search</button>
 	</form>
 </div>
 
