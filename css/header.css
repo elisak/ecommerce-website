@@ -4,11 +4,13 @@ header{
 	width:100%;
 }
 
-.banner{
-	background: blue url("../images/banner.jpg");
-	text-align: center;
-	margin-top: 0.5rem;
-	border: 2px solid black;
+.banner {
+background: #262e3b url("../images/banner.jpg") no-repeat top center;
+text-align: center;
+margin-top: 0.5rem;
+clear: both;
+height: 13em;
+border: 2px solid black;
 }
 
 .banner h1{
@@ -22,7 +24,7 @@ header{
 }
 
 .masthead{
-	background-color: lavenderblush;
+	background-color: #262e3b;
 }
 
 .logo{

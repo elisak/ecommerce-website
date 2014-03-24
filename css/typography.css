@@ -10,7 +10,7 @@
 */
 
  html{
-  background-color: rgba(195,217,247,.3);
+  background-color: /*rgba(195,217,247,.3)*/ floralwhite;
  	font: normal 100%/1.5'Jura', sans-serif; /* 16px/24px */
 }
 
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
   margin: 0 0 1.5rem;
-  color:/*deeppink*/ purple;
+  color:/*deeppink*/ #992435;
 }
 
 .yotta {
