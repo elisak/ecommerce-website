@@ -107,6 +107,17 @@ a:active{
 
 }
 
+a:hover,
+a:active{
+  /*we can remove the outline from mouse-base actions only*/
+  outline:none;
+}
+
+a:focus{
+  /*the outline MUST be on the focus state for keyboard access*/
+  outline: 2px solid #000;
+}
+
 /*Bullets and Lists*/
 
 ul{

@@ -1,4 +1,8 @@
-
+/*small image size*/
+.small{
+width:50%;
+float:right;
+}
 /*Small Screen* 250px*/
 @media only screen and (max-width: 300px ){
   .searchform{
