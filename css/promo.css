@@ -22,6 +22,29 @@
 	margin-top: 50rem;
 }
 
+.product-s{
+	background-color: purple;
+}
+
 .promo-small{
-	margin-top: -2.5rem;
+	margin: 1rem;
+	background-color: blue;
+	width:80%;
+}
+
+.promo-img-s{
+	margin:1rem;
+	width:90%;
+}
+
+.promo-info{
+	background-color: green;
+
+}
+
+
+
+.media-img{
+	width:50%;
+	background-color: red;
 }

@@ -1,8 +1,35 @@
+.grid {
+  margin: 0;
+  padding: 0;
+/*  letter-spacing: -0.31em;
+  text-rendering: optimizespeed;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;*/
+}
+
 /*small image size*/
 .small{
 width:50%;
 float:right;
 }
+
+.product-s{
+	width:50%;
+	float:right;
+}
+
+.product-m{
+
+}
+
+.product-l{
+
+}
+
+
+
 /*Small Screen* 250px*/
 @media only screen and (max-width: 300px ){
   .searchform{

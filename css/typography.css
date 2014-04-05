@@ -83,7 +83,7 @@ small, .milli {
 p{
   font-size: 1.0000rem;
   font-family: 'Roboto', sans-serif;
-  color:/*#ee3d2e*/ grey;
+  color:white;
 
 }
 /*Links*/
@@ -97,7 +97,7 @@ a:link{
 
 a:visited{
   color:limegreen;
-  border-bottom-color: pink;
+  border-bottom-color: limegreen;
 }
 
 a:hover,
@@ -118,11 +118,19 @@ a:focus{
   outline: 2px solid #000;
 }
 
+/*horizontal line*/
+hr{
+  border: 0;
+  border-bottom: 2px solid steelblue;
+}
+
+
 /*Bullets and Lists*/
 
 ul{
   list-style-type: none;
-  color:limegreen;
+  color:green;
+  padding: 0;
 }
 
 ul li{
@@ -130,10 +138,24 @@ ul li{
 }
 
 ul li:before{
-  content:"∞";
+  content:"•";
   color:blue;
   position: absolute;
   left:-1.1em;
+}
+
+/*blockquote*/
+blockquote{
+  padding-left: 1.5rem;
+  border-left: 3px solid steelblue;
+}
+
+
+blockquote footer{
+  text-align: right;
+  font-style: italic;
+  margin-top: -1rem
+
 }
 
 ol{
@@ -150,28 +172,26 @@ ol li:before{
   left:-1.1em;
 }
 
-/*blockquote*/
-blockquote footer{
-  text-align: right;
-  font-style: italic;
 
-}
 /*Table*/
 
 table{
   width:100%;
   table-layout: fixed;
+  border-collapse: collapse;
 }
 
 th{
   color:purple;
 
+
 }
 
 td{
-  background-color: orange;
+  background-color: lightgrey;
   text-align: center;
-
+  padding:0.10rem;
+  border: 1px solid steelblue;
 }
 
 caption{
