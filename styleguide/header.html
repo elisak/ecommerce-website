@@ -21,32 +21,46 @@
 <body>
 <!-- Logo -->
 
-<header class="nav nav-m nav-l">
+<header class="nav nav-m nav-l masthead" role="banner">
 
 <div class="logo-name">
-	<img class="logo medium large" src="http://placehold.it/60x60" alt="logo">
-	<h1>Elisa's Company</h1>
+	<img class="logo medium large" src="http://placehold.it/60x60" alt="EK Shoes company logo">
+	<h1>EK•Shoes. Co</h1>
 </div>
 
-<div class="nav-ul">
-	<nav>
-	<ul >
-		<li><a class="links" href="#">Home</a></li>
-		<li><a class="links" href="#">Account</a></li>
-		<li><a class="links" href="#">Sign In</a></li>
-	</ul>
-</nav>
-</div>
-
-
-<div class="search-bar">
-	<form class="searchform cf ">
-		<input type="text" placholder='Search here...'>
-		<button type='submit'>Search</button>
+<div class="search-bar" role="search">
+	<form method="get" class="searchform cf" action="{{site.baseurl}}/search/">
+		<input type="text" placholder="Search here...">
+		<button id="submit" type='submit' value="search">Search</button>
 	</form>
 </div>
 
+<div class="nav-ul" role="navigation">
+	<div class="grid">
+		<nav class="links">
+			<ul class="giga">
+				<li>
+					<a class="{% if page.url =="/cart/" %}current{% endif %}" href="{{site.baseurl}}/cart/">Cart</a>
+				</li>
+
+				<li>
+					<a class="{% if page.url =="/shoes/" %}current{% endif %}" href="{{site.baseurl}}/shoes/">Products</a>
+				</li>
+
+				<li>
+					<a class="{% if page.url =="/about/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
+				</li>
+
+				<li>
+					<a class="{% if page.url =="/" %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
 </header>
+
 
 
 </body>

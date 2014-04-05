@@ -1,3 +1,17 @@
+.product{
+	background-color: blue;
+	width:50%;
+}
+
+.media{
+	width:50%;
+}
+
+
+
+
+
+/*
 .large-bucket{
 	display:block;
 	margin-left: 1rem;
@@ -48,3 +62,4 @@
 	width:50%;
 	background-color: red;
 }
+*/

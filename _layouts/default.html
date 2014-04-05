@@ -32,31 +32,6 @@
 	<h1>EK•Shoes. Co</h1>
 </div>
 
-<div class="nav-ul" role="navigation">
-<nav>
-	<ul class="giga">
-
-		<li>
-			<a class="{% if page.url =="/cart/" %}current{% endif %}" href="{{site.baseurl}}/cart/">Cart</a>
-		</li>
-
-		<li>
-			<a class="{% if page.url =="/shoes/" %}current{% endif %}" href="{{site.baseurl}}/shoes/">Products</a>
-		</li>
-
-		<li>
-			<a class="{% if page.url =="/about/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
-		</li>
-
-		<li>
-			<a class="{% if page.url =="/" %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
-		</li>
-
-	</ul>
-</nav>
-</div>
-
-
 <div class="search-bar" role="search">
 	<form method="get" class="searchform cf" action="{{site.baseurl}}/search/">
 		<input type="text" placholder="Search here...">
@@ -64,8 +39,31 @@
 	</form>
 </div>
 
-</header>
+<div class="nav-ul" role="navigation">
+	<div class="grid">
+		<nav class="links">
+			<ul class="giga">
+				<li>
+					<a class="{% if page.url =="/cart/" %}current{% endif %}" href="{{site.baseurl}}/cart/">Cart</a>
+				</li>
 
+				<li>
+					<a class="{% if page.url =="/shoes/" %}current{% endif %}" href="{{site.baseurl}}/shoes/">Products</a>
+				</li>
+
+				<li>
+					<a class="{% if page.url =="/about/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
+				</li>
+
+				<li>
+					<a class="{% if page.url =="/" %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+</header>
 <!-- End of header -->
 
 {% if page.showbanner %}
