@@ -46,7 +46,7 @@ User testing was conducted by Elisa on Monday, March 24, 2014 between the times 
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
+- {some images should put a link to buy now page. }
 - etc.
 
 ### Serious, Causes Frustration, May Hinder Completion

@@ -2,7 +2,7 @@
 layout: shoes
 category: shoes
 name: flats
-image: straw-shoes.jpg
+image: flats.jpg
 price range: 20$-50$
 ---
 

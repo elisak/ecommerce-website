@@ -16,9 +16,9 @@ bannertext: Types of shoes!
 	{% for shoes in site.pages %}
 		{% if shoes.category == "shoes" %}
 			<li>
-				<a href="{{site.baseurl}}{{shoes.url}}">
+				<a href="{{site.baseurl}}{{shoes.url}}">{{shoes.name}}
 					<img src="{{site.baseurl}}/images/{{shoes.image}}" alt="different shoe types">
-					{{shoes.name}}
+
 				</a>
 			</li>
 		{% endif %}

@@ -2,7 +2,7 @@
 layout: shoes
 category: shoes
 name: Sandals
-image: heels-1.jpg
+image: sandals.jpg
 price-range: 40$+
 ---
 

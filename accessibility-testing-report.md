@@ -25,23 +25,23 @@ User testing was conducted by {your name} on {specific date} between the times o
 - tabs to the buy now button
 - tabs to the search bar button and than type and hits enter
 
-### {John Doe}
+### {Rudy}
 
-- {He completed the task as expected…}
-- {He had troubles completing a specific task…}
-- etc.
+- {tabs to cart page}
+- {tabs to buy now button}
+- tabs to search bar, than types sometime into the search bar.
 
-### {Jordan Doe}
+### {kayla}
 
 - {They completed the task as expected…}
 - {They had troubles completing a specific task…}
 - etc.
 
-### {Theresa Doe}
+### {Sasha}
 
-- {She completed the task as expected…}
-- {She had troubles completing a specific task…}
-- etc.
+- {tabs to cart page}
+- {tabs to buy now button}
+- tabs to search bar, than types sometime into the search bar.
 
 ### {Todd Doe}
 

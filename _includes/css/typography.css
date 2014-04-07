@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
   margin: 0 0 1.5rem;
-  color:/*deeppink*/ #992435;
+  color: #992435;
 }
 
 .yotta {
@@ -83,7 +83,7 @@ small, .milli {
 p{
   font-size: 1.0000rem;
   font-family: 'Roboto', sans-serif;
-  color:white;
+  color:grey;
 
 }
 /*Links*/
@@ -96,8 +96,8 @@ a:link{
 }
 
 a:visited{
-  color:limegreen;
-  border-bottom-color: limegreen;
+  color:steelblue;
+  border-bottom-color: grey;
 }
 
 a:hover,
@@ -138,7 +138,7 @@ ul li{
 }
 
 ul li:before{
-  content:"•";
+  content:"";
   color:blue;
   position: absolute;
   left:-1.1em;

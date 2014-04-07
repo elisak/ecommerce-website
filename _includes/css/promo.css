@@ -7,11 +7,27 @@
 .promo-small{
 	background-color: lightgrey;
 	margin:1rem;
+	width:90%
 }
 
+.promo-large-img{
+	width:100%;
+}
+
+.promo-large h2{
+	font-size: 3rem;
+	margin:1.5rem;
+}
+
+.promo-large h2, p{
+	color:grey;
+}
+
+
 .promo-img-s{
-	width:40%;
-	border:6px solid lightsteelblue ;
+	width:80%;
+	border:10px solid lightsteelblue ;
+	margin:1.5rem;
 
 }
 
