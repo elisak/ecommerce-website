@@ -12,12 +12,12 @@ bannertext: Types of shoes!
 
 <p class="info product product-m product-l"> Our shoes are well designed, different and got interesting art to it. </p>
 
-<ul>
+<ul class="grid2">
 	{% for shoes in site.pages %}
 		{% if shoes.category == "shoes" %}
-			<li>
-				<a href="{{site.baseurl}}{{shoes.url}}">{{shoes.name}}
-					<img src="{{site.baseurl}}/images/{{shoes.image}}" alt="different shoe types">
+			<li class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+				<a class="product-link" href="{{site.baseurl}}{{shoes.url}}">{{shoes.name}}
+					<img src="{{site.baseurl}}/images/{{shoes.image}}" class="img-flex" alt="different shoe types">
 
 				</a>
 			</li>

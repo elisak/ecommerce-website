@@ -3,3 +3,8 @@
 	margin:1rem;
 	border: 15px solid lightgrey;
 }
+
+.img-flex{
+	display: block;
+	width:100%;
+}

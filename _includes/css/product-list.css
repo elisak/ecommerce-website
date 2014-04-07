@@ -3,3 +3,9 @@
 	margin-top: 2rem;
 }
 
+.product-link,
+.product-link:link,
+.product-link:visited{
+	border:0;
+
+}
