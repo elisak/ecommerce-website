@@ -1,5 +1,6 @@
 .list-group{
 	text-decoration: none;
+	margin:.75rem;
 }
 
 .list-group-item:before{
@@ -7,7 +8,6 @@
 }
 
 .list-group-item{
-	margin-top: 1rem;
-	margin-right: .5rem;
+	margin:.3rem;
 	display: inline-block;
 }

@@ -1,20 +1,84 @@
-.product{
-	background-color: blue;
-	width:50%;
+.promo-product{
+	background-color: lightsteelblue;
+	padding:.5rem;
+	margin:1rem;
 }
 
-.media{
-	width:50%;
+.promo-small{
+	background-color: lightgrey;
+	margin:1rem;
+}
+
+.promo-img-s{
+	width:40%;
+	border:6px solid lightsteelblue ;
+
+}
+
+.item{
+	clear:left;
+	position:relative;
+	float:left;
+}
+
+.item-shoes{
+	display: inline-block;
+}
+
+.img-shoes{
+	width:90%;
+	margin:.70rem;
+}
+
+.img-heels{
+	width:90%;
+	margin:.70rem;
+}
+
+.img-sandals{
+	width:90%;
+	margin:.70rem;
+}
+
+.img-boot{
+	width:90%;
+	margin:.70rem;
+}
+
+.img-sneakers{
+	margin:.70rem;
+}
+
+.promo-content{
+	margin:.75rem;
+	max-width:15.75rem;
+
+}
+
+
+.promo{
+	float:left;
+}
+
+.promo-left{
+	float:left;
+}
+
+.img{
+	padding:.5rem;
+	margin: .25rem;
+}
+
+.promo-group{
+	list-style-type: none;
+	display:inline-block;
 }
 
 
 
-
-
-/*
 .large-bucket{
 	display:block;
-	margin-left: 1rem;
+	margin-left: 1.25rem;
 	clear:both;
 	position: absolute;
 }
@@ -36,7 +100,7 @@
 	margin-top: 50rem;
 }
 
-.product-s{
+/*.product-s{
 	background-color: purple;
 }
 
@@ -62,4 +126,5 @@
 	width:50%;
 	background-color: red;
 }
+
 */
