@@ -97,7 +97,7 @@ a:link{
 
 a:visited{
   color:steelblue;
-  border-bottom-color: grey;
+  border-bottom:none;
 }
 
 a:hover,

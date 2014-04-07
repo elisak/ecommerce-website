@@ -1,15 +1,15 @@
 ---
 ---
 
-{% include css/buttons %}
-{% include css/commons %}
-{% include css/footer %}
-{% include css/forms %}
-{% include css/grid %}
-{% include css/header %}
-{% include css/list-group %}
-{% include css/media-objects %}
-{% include css/product-details %}
-{% include css/product-list %}
-{% include css/promo %}
-{% include css/typography %}
+{% include css/buttons.css %}
+{% include css/common.css %}
+{% include css/footer.css %}
+{% include css/forms.css %}
+{% include css/grid.css %}
+{% include css/header.css %}
+{% include css/list-group.css %}
+{% include css/media-objects.css %}
+{% include css/product-details.css %}
+{% include css/product-list.css %}
+{% include css/promo.css %}
+{% include css/typography.css %}
