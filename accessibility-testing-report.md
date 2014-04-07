@@ -33,8 +33,8 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### {kayla}
 
-- {They completed the task as expected…}
-- {They had troubles completing a specific task…}
+- {found the carts page}
+- {had trouble finding/ getting to other pages}
 - etc.
 
 ### {Sasha}
@@ -61,8 +61,8 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- {images should bring to product page}
+- .
 
 ### Serious, Causes Frustration, May Hinder Completion
 

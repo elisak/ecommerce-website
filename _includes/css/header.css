@@ -5,18 +5,20 @@ header{
 }
 
 .banner {
-background: #262e3b url("../images/banner.jpg") no-repeat top center;
-text-align: center;
-margin-top: 0.5rem;
+background:url("../images/shoes-banners.jpg") no-repeat top center;
+margin-top: 2.5rem;
 clear: both;
-height: 13em;
+height: 20em;
 border: 2px solid black;
+
 }
 
 .banner h1{
-	color:grey;
-	font-size: 2rem;
+	color:orangered;
+	font-size: 2.5rem;
 	display:block;
+	text-align: center;
+	margin: 2.5rem;
 }
 
 .current{
