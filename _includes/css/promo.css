@@ -1,4 +1,10 @@
-.promo-product{
+.promo-large-img{
+	width:100%;
+}
+
+
+
+/*.promo-product{
 	background-color: lightsteelblue;
 	padding:.5rem;
 	margin:1rem;
@@ -9,9 +15,6 @@
 	width:90%
 }
 
-.promo-large-img{
-	width:100%;
-}
 
 .promo-large h2{
 	font-size: 3rem;
@@ -113,7 +116,7 @@
 	display: inline-block;
 	margin-left: 1rem;
 	margin-top: 50rem;
-}
+}*/
 
 /*.product-s{
 	background-color: purple;

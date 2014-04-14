@@ -5,20 +5,20 @@ header{
 }
 
 .banner {
-background:url("../images/shoes-banners.jpg") no-repeat top center;
-margin-top: 2.5rem;
+background:url("../images/banner.jpg") no-repeat center ;
+
 clear: both;
 height: 20em;
-border: 2px solid black;
+
 
 }
 
-.banner h1{
-	color:orangered;
-	font-size: 2.5rem;
-	display:block;
-	text-align: center;
-	margin: 2.5rem;
+.banner h1 {
+color: rgb(223, 214, 214);
+font-size: 3.5rem;
+display: block;
+text-align: center;
+margin-left: 3rem;
 }
 
 .current{
@@ -69,11 +69,11 @@ h1{
 }
 
 .nav-ul{
-	margin-left:-15rem;
+	margin-left:-2rem;
 }
 
-a,
-a:link {
+.nav-ul a,
+.nav-ul a:link {
 	text-decoration: none;
 	border-bottom:none;
 	float:right;
@@ -82,13 +82,13 @@ a:link {
 
 }
 
-a:visited {
+.nav-ul a:visited {
 	color:purple;
 }
 
-a:hover,
-a:focus,
-a:active {
+.nav-ul a:hover,
+.nav-ul a:focus,
+.nav-ul a:active {
 	text-decoration: none;
 }
 
