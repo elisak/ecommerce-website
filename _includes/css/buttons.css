@@ -44,3 +44,25 @@
 
 }
 
+.btn2,
+.btn:link,
+.btn:visited{
+	box-shadow: 3px 2px 3px rgba(0,0,0,0.5);
+	background-color: #262e3b;
+	transition:0.7s;
+	font-family: 'Roboto', sans-serif;
+	border:none;
+	margin-right: 55px;
+	margin-top: 1.5rem;
+	padding: 10px;
+	float:right;
+
+}
+
+.btn2:hover{
+	background-color:lightsteelblue;
+	color:black;
+	font-weight: bold;
+	transition: 1s;
+
+}

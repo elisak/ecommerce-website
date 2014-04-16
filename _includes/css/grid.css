@@ -21,6 +21,11 @@ float:right;
 
 }
 
+.store{
+	padding: 2rem;
+
+}
+
 
 
 /*Small Screen* 250px*/
@@ -31,6 +36,7 @@ float:right;
 
   .logo-name{
   	display: block;
+
   }
 }
 

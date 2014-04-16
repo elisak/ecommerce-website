@@ -10,13 +10,13 @@
 */
 
  html{
-  background-color: #F5F5F5;/*whitesmoke*/
- 	font: normal 100%/1.5'Jura', sans-serif; /* 16px/24px */
+  background-color: white;
+  font: normal 100%/1.5'Jura', sans-serif; /* 16px/24px */
 }
 
 ::selection{
   background-color:purple;
-  color:floralwhite;
+  color:white;
 }
 
 
@@ -81,9 +81,10 @@ small, .milli {
 }
 
 p{
+  padding: 1rem;
   font-size: 1.0000rem;
   font-family: 'Roboto', sans-serif;
-  color:grey;
+  color:black;
 
 }
 /*Links*/

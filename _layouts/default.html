@@ -18,8 +18,10 @@
 <header class="nav nav-m nav-l masthead" role="banner">
 
 <div class="logo-name">
-	<img class="logo medium large" src="http://placehold.it/60x60" alt="EK Shoes company logo">
-	<h1>EK•Shoes. Co</h1>
+  <a class="{% if page.url =="/" %}current{% endif %}" href="{{site.baseurl}}/">
+  	<img class="logo medium large" src="../images/ek-shoes.co.svg" alt="EK Shoes company logo">
+  	<h1>EK•Shoes. Co</h1>
+  </a>
 </div>
 
 <div class="search-bar" role="search">
