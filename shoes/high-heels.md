@@ -1,7 +1,7 @@
 ---
 layout: shoes
 category: shoes
-name: High Heels & Wedges
+name: High Heels
 image: high-heels.jpg
 price range: 30$-200$
 ---

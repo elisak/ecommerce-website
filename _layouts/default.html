@@ -28,18 +28,22 @@
 		<button id="submit" type='submit' value="search">Search</button>
 	</form>
 </div>
-
+<!-- navigation in header -->
 <div class="nav-ul" role="navigation">
 	<div class="grid">
 		<nav class="links">
 			<ul class="giga">
+        <!-- cart page link -->
 				<li>
 					<a class="{% if page.url =="/cart/" %}current{% endif %}" href="{{site.baseurl}}/cart/">Cart</a>
 				</li>
 
+        <!--Product page link (shoes folder) -->
 				<li>
 					<a class="{% if page.url =="/shoes/" %}current{% endif %}" href="{{site.baseurl}}/shoes/">Products</a>
 				</li>
+
+        <!-- About page link -->
 
 				<li>
 					<a class="{% if page.url =="/about/" %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
