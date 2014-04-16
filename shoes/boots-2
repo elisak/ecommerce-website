@@ -1,6 +1,6 @@
 ---
 layout: shoes
-category: shoes
+category: boots
 shoe_type: Boots
 name: Rain Boots
 image: rain-boots.jpg
@@ -18,4 +18,3 @@ price range: 30$-100$
 - boots 3 ![Alt text](/../images/rain-boots.jpg "Rain Boots 1")
 
 ![Cute boots]
-
