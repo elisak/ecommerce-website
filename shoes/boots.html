@@ -1,0 +1,20 @@
+---
+layout: default
+category: shoes
+shoe_type: Boots
+name: Rain Boots
+image: rain-boots.jpg
+price range: 30$-100$
+---
+
+<p>"Shoes transform your body language and attitude. They life you physically and emotionally *-Christian Louboutin.*"</p>
+
+<h2>Features</h2>
+
+{% for boot in site.pages %}
+{% if boot.category == "boots" %}
+<a href="{{site.baseurl}}{{boot.url}}">
+<h3>{{boot.name}}</h3>
+</a>
+{% endif %}
+{% endfor %}

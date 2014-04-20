@@ -1,0 +1,20 @@
+---
+layout: default
+category: shoes
+shoe_type: Flats
+name: ballet flats
+image: flats.jpg
+price range: 30$-100$
+---
+
+<p>"Shoes that you can't stop dancing in the streets.</p>
+
+<h2>Features</h2>
+
+{% for flats in site.pages %}
+{% if flats.category == "flats" %}
+<a href="{{site.baseurl}}{{flats.url}}">
+<h3>{{flats.name}}</h3>
+</a>
+{% endif %}
+{% endfor %}

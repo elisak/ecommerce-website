@@ -1,0 +1,20 @@
+---
+layout: default
+category: shoes
+shoe_type: sneakers
+name: sneakers
+image: sneakers.jpg
+
+---
+
+<p>"Sandals that let your toes breathe. Release the funk.</p>
+
+<h2>Features</h2>
+
+{% for sneakers in site.pages %}
+{% if sneakers.category == "sneakers" %}
+<a href="{{site.baseurl}}{{sneakers.url}}">
+<h3>{{sneakers.name}}</h3>
+</a>
+{% endif %}
+{% endfor %}
