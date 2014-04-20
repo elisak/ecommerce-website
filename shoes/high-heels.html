@@ -1,0 +1,19 @@
+---
+layout: default
+category: shoes
+shoe_type: High Heels
+name: High Heels
+image: high-heels.jpg
+---
+
+<p>"Shoes transform your body language and attitude. They life you physically and emotionally *-Christian Louboutin.*"</p>
+
+<h2>Features</h2>
+
+{% for high_heels in site.pages %}
+{% if high_heels.category == "high heels" %}
+<a href="{{site.baseurl}}{{heels.url}}">
+<h3>{{high_heels.name}}</h3>
+</a>
+{% endif %}
+{% endfor %}
