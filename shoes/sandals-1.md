@@ -1,8 +1,8 @@
 ---
 layout: shoes
 category: sandals
-name: small Sandals
-image: sandals.jpg
+name: wooden bottom Sandals
+image: sandals/sandal-1.jpg
 ---
-price-range: 40$+
+* price range: 40$+
 

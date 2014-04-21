@@ -2,14 +2,11 @@
 layout: shoes
 category: boots
 shoe_type: Boots
-name: Rain Boots
+name: Synthetic Boots
 image: boots/boots-2.jpg
 price range: 30$-100$
 ---
 
-"Shoes transform your body language and attitude. They life you physically and emotionally *-Christian Louboutin.*"
-
-## Features
-
-
-![Cute boots]
+    * Colours: light grey, White, Green
+    * materials: Synthetic Leather:
+    * price: 150$

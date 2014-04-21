@@ -1,12 +1,10 @@
 ---
 layout: shoes
 category: boots
-name: red boots
+name: Creme Synthetic Boots
 image: boots/boots-3.jpg
 ---
 
-#boots 3
-
-
-## Features
--colour: blue
+    * Colours: white, Beige, Grey
+    * materials: Synthetic Leather:
+    * price: 250$

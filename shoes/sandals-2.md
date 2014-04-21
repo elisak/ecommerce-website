@@ -1,8 +1,8 @@
 ---
 layout: shoes
 category: sandals
-name: weird Sandals
-
+name: Gladiator Sandals
+image: sandals/sandal-2.jpg
 ---
 
-price-range: 50$+
+* price range: 30$+

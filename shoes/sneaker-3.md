@@ -4,11 +4,10 @@ category: sneakers
 name: sneakers
 shoe_type: sneakers
 price: $99
-image: sneakers.jpg
+image: sneakers/shoe-3.jpg
 title: weird Sneaker
 ---
 
-- ![Alt text](/../images/sneakers.jpg "first sneakers 1")
 
 
 price: $99

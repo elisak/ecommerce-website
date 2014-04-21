@@ -4,7 +4,7 @@ category: sneakers
 name: sneakers
 shoe_type: sneakers
 price: $99
-image: sneakers.jpg
+image: sneakers/sneakers-2.jpg
 title: ugly Sneaker
 ---
 
