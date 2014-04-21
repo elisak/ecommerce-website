@@ -39,3 +39,9 @@ Software: Photoshop, Sublime Text 2, Google Chrome
 
 
 Images: Images are taken from Google with the reuse and modification rights and also some images are taken from Flickr.
+
+https://www.flickr.com/search/?q=shoes&l=cc&ct=0&mt=all&adv=1
+https://www.flickr.com/search?content_type=1&media=all&license=1%2C2%2C3%2C4%2C5%2C6&adv=1&sort=relevance&text=converse
+https://www.flickr.com/search?content_type=1&media=all&license=1%2C2%2C3%2C4%2C5%2C6&adv=1&sort=relevance&text=high%20heels
+https://www.flickr.com/search?content_type=1&media=all&license=1%2C2%2C3%2C4%2C5%2C6&adv=1&sort=relevance&text=sandals
+https://www.flickr.com/search?content_type=1&media=all&license=1%2C2%2C3%2C4%2C5%2C6&adv=1&sort=relevance&text=ballet%20flats

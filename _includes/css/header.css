@@ -24,7 +24,7 @@ margin-left: 3rem;
 }
 
 .masthead{
-	background-color: #262e3b;
+	background-color:rgba(78, 150, 192, 0.86);
 }
 
 .links{
@@ -103,9 +103,4 @@ h1{
 	position:relative;
 }
 
-/*
-.masthead{
-	background-color: #f16357;
-}
-*/
 
