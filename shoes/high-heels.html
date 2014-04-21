@@ -11,7 +11,7 @@ image: high-heels.jpg
 <h2>Kinds</h2>
 
 {% for heels in site.pages %}
-	{% if heels.category == "heels " %}
+	{% if heels.category == "heels" %}
 		<a href="{{site.baseurl}}{{heels.url}}">
 		<h3>{{heels.name}}</h3>
 		</a>
