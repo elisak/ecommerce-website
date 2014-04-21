@@ -2,7 +2,7 @@
 layout: shoes
 category: flats
 name: flats with a heels
-image: flats.jpg
+image: flats/flats-3.jpg
 ---
 
 

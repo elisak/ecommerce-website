@@ -2,7 +2,7 @@
 layout: shoes
 category: flats
 name: ballet flats
-image: flats.jpg
+image: flats/flats-1.jpg
 ---
 
 

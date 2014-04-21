@@ -1,8 +1,8 @@
 ---
 layout: shoes
-category:heels
+category: heels
 name: Pink Heels
-image: high-heels.jpg
+image: high-heels/heels-3.jpg
 price range: 30$-200$
 ---
 

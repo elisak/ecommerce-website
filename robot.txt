@@ -1,0 +1,7 @@
+#http://robotstxt.org
+
+Sitemap:http://elisak.github.io/ecommerce-website/
+
+User-agent:
+Disallow:
+

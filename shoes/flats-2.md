@@ -2,7 +2,7 @@
 layout: shoes
 category: flats
 name: dress shoes flats
-image: flats.jpg
+image: flats/flats-2.jpg
 ---
 
 
