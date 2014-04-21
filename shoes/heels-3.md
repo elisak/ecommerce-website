@@ -1,8 +1,8 @@
 ---
 layout: shoes
 category: heels
-name: Pink Heels
-image: high-heels/heels-3.jpg
+name: Magenta leather Heels
+image: high-heels/heel-3.jpg
 price range: 30$-200$
 ---
 
