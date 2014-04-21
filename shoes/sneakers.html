@@ -10,11 +10,14 @@ image: sneakers.jpg
 <p>"Sandals that let your toes breathe. Release the funk.</p>
 
 <h2>Features</h2>
-
-{% for sneakers in site.pages %}
-{% if sneakers.category == "sneakers" %}
-<a href="{{site.baseurl}}{{sneakers.url}}">
-<h3>{{sneakers.name}}</h3>
-</a>
+<div class="grid2">
+	<div class="img-flex unit unit-s-1 unit-m-3-4 unit-l-2-3 ">
+	{% for sneakers in site.pages %}
+		{% if sneakers.category == "sneakers" %}
+			<a href="{{site.baseurl}}{{sneakers.url}}">
+		<h3>{{sneakers.name}}</h3>
+	</a>
 {% endif %}
 {% endfor %}
+	</div>
+</div>

@@ -1,12 +1,15 @@
 ---
 layout: shoes
 category: boots
-name: Blue boots
+name: old leather
+image: boots/boots-1.jpg
 ---
 
-#boots 1
-
+# Horse riding Boots
 ## Features
--colour: blue
+
+colour: Black, Navy Blue, Dark Brown
+
+materials: leather
 
 price: 150$
