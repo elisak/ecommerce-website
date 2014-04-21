@@ -1,8 +1,8 @@
 ---
 layout: shoes
-category: High heels
-name: Pink Heels
-image: high-heels.jpg
+category: heels
+name: Pretty Pink Heels
+image: high-heels/heels-1.jpg
 price range: 30$-200$
 ---
 

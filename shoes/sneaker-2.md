@@ -1,14 +1,14 @@
 ---
 layout: shoes
 category: sneakers
-name: sneakers
+name: Nike Air
 shoe_type: sneakers
 price: $99
-image: sneakers/sneakers-2.jpg
-title: ugly Sneaker
+image: sneakers/shoe-2.jpg
+title: Nike Air Sneaker
 ---
-
-- ![Alt text](/../images/sneakers.jpg "first sneakers 1")
-
-
-price: $99
+* retor-styled
+* High top
+* velcro
+* comes with coloured shoe laces
+* price: $299

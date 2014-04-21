@@ -1,13 +1,12 @@
 ---
 layout: shoes
 category: sneakers
-name: sneakers
+name: Nike sneakers
 shoe_type: sneakers
-price: $99
 image: sneakers/shoe-3.jpg
-title: weird Sneaker
+title: Nike Sneaker
 ---
 
 
 
-price: $99
+* price: $399

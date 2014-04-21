@@ -1,15 +1,14 @@
 ---
 layout: shoes
 category: sneakers
-name: sneakers
+name: Nike sneakers
 shoe_type: sneakers
 price: $99
-image: sneakers.jpg
+image: sneakers/shoe-1.jpg
 title: Fancy Sneaker
 ---
 
-- ![Alt text](/../images/sneakers.jpg "first sneakers 1")
 
-
-price: $99
+* price: $99
+* colour: white and navy blue
 
