@@ -1,7 +1,7 @@
 ---
 layout: shoes
 category: heels
-name: Pretty Pink Heels
+name: Cherry Red silhouette heels
 image: high-heels/heel-1.jpg
 price range: 30$-200$
 ---
@@ -12,8 +12,6 @@ price range: 30$-200$
 
 ##Featurettes
 
-- Wedges
-- kitten heels
-- pumps
-- Stilettos
-- Thick- coned heels
+* Bold red
+* 5 inches tall
+* $200
