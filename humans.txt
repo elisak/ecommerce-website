@@ -1,0 +1,41 @@
+
+
+
+
+/* TEAM */
+
+
+Your title: Elisa Koon.
+
+
+Site: http://elisak.github.io/ecommerce-website/
+
+Twitter: elisakoon.
+
+
+Location: Ottawa, Ontario
+
+
+
+/* THANKS */
+
+
+Name: My Professor for Teaching me how to code and for helping me fix my broken code.
+
+
+/* SITE */
+
+
+Last update: 2014/04/20
+
+
+Standards: HTML5, CSS3,..
+
+
+Components: HTML and CSS
+
+
+Software: Photoshop, Sublime Text 2, Google Chrome
+
+
+Images: Images are taken from Google with the reuse and modification rights and also some images are taken from Flickr.
