@@ -5,11 +5,10 @@ name: old leather
 image: boots/boots-1.jpg
 ---
 
-# Horse riding Boots
-## Features
+    * Colours: Black, Navy Blue, Dark Brown
+    * materials: leather
+    * price: 150$
 
-colour: Black, Navy Blue, Dark Brown
 
-materials: leather
 
-price: 150$
+

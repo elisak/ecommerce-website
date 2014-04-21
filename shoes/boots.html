@@ -10,7 +10,8 @@ price range: 30$-100$
 <p>"Shoes transform your body language and attitude. They life you physically and emotionally *-Christian Louboutin.*"</p>
 
 <h2>Features</h2>
-
+<div class="grid2">
+	<div class="img-flex unit unit-s-1 unit-m-3-4 unit-l-2-3 ">
 {% for boot in site.pages %}
 {% if boot.category == "boots" %}
 <a href="{{site.baseurl}}{{boot.url}}">
@@ -18,3 +19,5 @@ price range: 30$-100$
 </a>
 {% endif %}
 {% endfor %}
+	</div>
+</div>
